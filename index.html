@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1 class="title"> My Image Gallery </h1>
+
+<div class="filter-buttons">
+  <button onclick="filterImages('all')">All</button>
+  <button onclick="filterImages('nature')">Nature</button>
+  <button onclick="filterImages('city')">City</button>
+</div>
+
+<div class="gallery">
+
+  <!-- Nature Images -->
+  <div class="image nature"><img src="https://tse2.mm.bing.net/th?id=OIP.W2ZZmFD47OaU47rNNwzzUAHaEo&pid=Api&P=0&h=220" alt="Nature 1" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="http://thewowstyle.com/wp-content/uploads/2015/01/nature-wallpaper-27.jpg" alt="Nature 2" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Nature-Full-HD-Images-For-Desktop.jpg" alt="Nature 3" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="http://thewowstyle.com/wp-content/uploads/2015/01/nature-images-6.jpg" alt="Nature 4" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://picjumbo.com/wp-content/uploads/beautiful-nature-scenery-free-photo-2210x1473.jpg" alt="Nature 5" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://www.pixelstalk.net/wp-content/uploads/2016/09/Best-Beautiful-Images-For-Desktop-Nature.png" alt="Nature 6" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://tse4.mm.bing.net/th?id=OIP.gn9oyDx1aHVM6BizXx7vhgHaEK&pid=Api&P=0&h=220" alt="Nature 7" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://tse2.mm.bing.net/th?id=OIP._3nkvckVY8aV37NVRn-MVAHaE9&pid=Api&P=0&h=220" alt="Nature 8" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="http://project4gallery.com/wp-content/uploads/2016/03/beautiful-nature-landscape-scenery-wide-5.jpg" alt="Nature 9" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://tse4.mm.bing.net/th?id=OIP.86zja7WAkbP-nntIbFMg6AHaEo&pid=Api&P=0&h=220" alt="Nature 10" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://tse4.mm.bing.net/th?id=OIP.IBqw83F6Nl5fvYPKErhkHAHaEo&pid=Api&P=0&h=220" alt="Nature 11" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="http://www.pixelstalk.net/wp-content/uploads/2016/08/Best-Pictures-HD-Nature-Download.jpg" alt="Nature 12" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://tse4.mm.bing.net/th?id=OIP.M2SujemyQcZBiLUPZylJRwHaEo&pid=Api&P=0&h=220" alt="Nature 13" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://tse2.mm.bing.net/th?id=OIP.UoQlOfkf377AG9XAR6-ycgHaDt&pid=Api&P=0&h=220" alt="Nature 14" onclick="openLightbox(this)"/></div>
+  <div class="image nature"><img src="https://tse2.mm.bing.net/th?id=OIP.KeRduNXcbnI6lIpUsQzq3gHaFj&pid=Api&P=0&h=220" alt="Nature 15" onclick="openLightbox(this)"/></div>
+
+  <!-- City Images -->
+  <div class="image city"><img src="https://tse2.mm.bing.net/th?id=OIP.Xt-7y9CrMZKYJaNU3e1Y2wHaE8&pid=Api&P=0&h=220" alt="City 1" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://tse1.mm.bing.net/th?id=OIP.MSGoz4Mwni6YfQQl8e5feAHaE8&pid=Api&P=0&h=220" alt="City 2" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://static01.nyt.com/images/2012/05/06/nyregion/06BIG_SPAN/BIG-superJumbo.jpg" alt="City 3" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://tse1.mm.bing.net/th?id=OIP.2STe8-MTRg5cdut8H3F8rwHaE8&pid=Api&P=0&h=220" alt="City 4" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://wallpapercave.com/wp/wp8708332.jpg" alt="City 5" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://wallup.net/wp-content/uploads/2016/07/20/43415-Dubai-cityscape-city-skyscraper-building-lights.jpg" alt="City 6" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://www.goodfreephotos.com/albums/australia/western-australia/perth/skyline-of-perth-at-night-in-australia.jpg" alt="City 7" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://images.hdqwalls.com/download/urban-city-town-buildings-skyscraper-5k-kd-2880x1800.jpg" alt="City 8" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Free-hd-building-wallpaper.jpg" alt="City 9" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://tse4.mm.bing.net/th?id=OIP.4JEf4F6JZdCXnGMdoC02VAHaEF&pid=Api&P=0&h=220" alt="City 10" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://tse4.mm.bing.net/th?id=OIP.pSDtCeFJeCMEFwrekjac-wHaEK&pid=Api&P=0&h=220" alt="City 11" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://computerbackgroundimages.com/wp-content/uploads/2018/08/4K-Computer-Background-Images-94-2048x2048.jpg" alt="City 12" onclick="openLightbox(this)"/></div>
+  <div class="image city"><img src="https://images6.alphacoders.com/421/421386.jpg" alt="City 13" onclick="openLightbox(this)"/></div>
+
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img class="lightbox-content" id="lightbox-img" />
+  <div class="nav">
+    <button onclick="prevImage()">⏮️</button>
+    <button onclick="nextImage()">⏭️</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
